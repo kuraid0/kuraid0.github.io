@@ -106,7 +106,48 @@ order: 3
 
 </div>
 
+<style>
+.cert-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1fr;
+  column-gap: 64px;
+  row-gap: 40px;
+  width: 100%;
+  margin: 0 auto;
+}
 
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.cert-grid a {
+  white-space: nowrap;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
+
+.cert-logo-box {
+  width: 64px;
+  height: 64px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cert-logo-box img {
+  max-width: 48px;
+  max-height: 48px;
+  object-fit: contain;
+  display: block;
+}
+</style>
 
 ## Skills
 
@@ -143,3 +184,23 @@ order: 3
 
 </div>
 
+<style>
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 134px;
+  margin-top: 24px;
+}
+
+.skills-grid h3 {
+  margin-bottom: 12px;
+}
+
+.skills-grid ul {
+  padding-left: 20px;
+}
+
+.skills-grid li {
+  margin-bottom: 6px;
+}
+</style>

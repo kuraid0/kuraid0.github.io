@@ -47,6 +47,15 @@ order: 3
   </a>
 </div>
 
+<div class="cert-item">
+  <div class="cert-logo-box">
+    <img src="/assets/img/logos/guidem.png" alt="GuideM" />
+  </div>
+  <a href="https://academy.guidem.ph/certificates/kudzkygbxi" target="_blank">
+    Ethical Hacking: VAPT (GuideM)
+  </a>
+</div>
+
 </div>
 
 <!-- COLUMN 2 -->
@@ -90,26 +99,12 @@ order: 3
 
 </div>
 
-<!-- COLUMN 3 -->
-<div>
-
-<div class="cert-item">
-  <div class="cert-logo-box">
-    <img src="/assets/img/logos/guidem.png" alt="GuideM" />
-  </div>
-  <a href="https://academy.guidem.ph/certificates/kudzkygbxi" target="_blank">
-    Ethical Hacking: VAPT (GuideM)
-  </a>
-</div>
-
-</div>
-
 </div>
 
 <style>
 .cert-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1.2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 64px;
   row-gap: 40px;
   width: 100%;
@@ -126,8 +121,6 @@ order: 3
 .cert-grid a {
   white-space: nowrap;
   font-weight: 600;
-  position: relative;
-  z-index: 2;
 }
 
 .cert-logo-box {
@@ -145,9 +138,9 @@ order: 3
   max-width: 48px;
   max-height: 48px;
   object-fit: contain;
-  display: block;
 }
 </style>
+
 
 ## Skills
 

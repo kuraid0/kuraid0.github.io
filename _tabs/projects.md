@@ -9,8 +9,8 @@ Full technical writeups are published on **Medium** and linked directly.
 
 ---
 
-### **SOC Automation Project 2.0: End-to-End Detection & Response**
-A hands-on SOC automation project that demonstrates a complete detection and response workflow using SIEM and SOAR concepts. The project integrates automated alert triage, enrichment, and response actions through security orchestration and workflow automation, highlighting how automation can streamline incident handling and reduce manual analyst workload in a simulated SOC environment.
+### **SOC Automation Project 2.0: End-to-End Detection & Response with AI**
+A hands-on SOC automation project demonstrating a complete end-to-end detection and response workflow using **SIEM, SOAR, and AI-assisted analysis**. This project highlights how automation and AI can support alert triage, enrichment, and response actions to reduce manual analyst workload and improve incident handling efficiency in a simulated SOC environment.
 
 🔗 **[Read the full article in Medium](https://medium.com/@kuraido/soc-automation-2-0-20da7d4d1fe1)**  
 
@@ -18,7 +18,7 @@ A hands-on SOC automation project that demonstrates a complete detection and res
 ---
 
 ### **Boss of the SOC V1 (2015) – Website Defacement Investigation**
-A Splunk-based investigation into a simulated real-world website defacement scenario, focusing on log analysis, attack timeline reconstruction, and identifying brute-force and unauthorized access activity. This project demonstrates practical log interpretation, attacker behavior analysis, and evidence prioritization from a SOC analyst’s perspective.
+A SIEM-based investigation of a simulated real-world website defacement incident. This project focuses on log analysis, attack timeline reconstruction, and identifying unauthorized access activity, demonstrating practical incident investigation and attacker behavior analysis from a SOC analyst’s perspective.
 
 🔗 **[Read the full article in Medium](https://medium.com/@kuraido/boss-of-the-soc-v1-2015-web-site-defacement-writeup-9e04f96d5c24)**  
 
@@ -26,7 +26,6 @@ A Splunk-based investigation into a simulated real-world website defacement scen
 ---
 
 ### **SOC Automation Project**
-A home lab project showcasing detection and response capabilities using Sysmon for endpoint telemetry and Wazuh as the SIEM. The project incorporates Shuffle for basic orchestration and TheHive for case management, demonstrating how alerts move through detection, investigation, and response stages while building a solid understanding of SOC workflows and alert lifecycle management.
+A home lab project focused on building detection and response capabilities using endpoint telemetry, SIEM monitoring, and basic orchestration. This project demonstrates how alerts progress through detection, investigation, and response stages, reinforcing core SOC workflows and alert lifecycle management fundamentals.
 
 🔗 **[Read the full article in Medium](https://medium.com/@kuraido/soc-automation-project-home-lab-building-a-detection-and-response-lab-with-sysmon-wazuh-fb38e19e9e45)**  
-

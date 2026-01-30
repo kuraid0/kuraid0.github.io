@@ -1,6 +1,5 @@
 ---
 title: Boss of the SOC V1 (2015) – Website Defacement Investigation
-date: 2026-01-29 10:30:00 +0800
 categories: [Projects]
 tags: [soc, incident-response, splunk, log-analysis, blue-team]
 excerpt: SOC investigation of a website defacement incident using SIEM log analysis.

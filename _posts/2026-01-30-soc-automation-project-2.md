@@ -1,5 +1,6 @@
 ---
 title: SOC Automation Project 2.0 – End-to-End Detection & Response with AI
+date: 2026-01-29 14:00:00 +0800
 categories: [Projects]
 tags: [soc, splunk, soar, automation, ai, detection-response, blue-team]
 excerpt: End-to-end SOC automation project using SIEM, SOAR, and AI-assisted analysis for alert triage and response.

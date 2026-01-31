@@ -144,56 +144,17 @@ order: 3
 
 ## Skills
 
-<div class="skills-grid">
+### Blue Team / Defensive Security
+- Alert Triage & Incident Investigation
+- SIEM: Splunk, Elastic Stack (ELK), Wazuh
+- Log Analysis (Endpoint, Network, Authentication)
+- Threat Detection & MITRE ATT&CK Mapping
+- SOAR & Security Automation
+- Threat Intelligence & IOC Analysis
+- Incident Escalation & SOC Playbooks
 
-  <!-- COLUMN 1 -->
-  <div>
-    <h3>Blue Team / Defensive Security</h3>
-    <ul>
-      <li>Alert Triage & Incident Investigation</li>
-      <li>SIEM: Splunk, Elastic Stack (ELK), Wazuh</li>
-      <li>Log Analysis (Endpoint, Network, Authentication)</li>
-      <li>Threat Detection & MITRE ATT&CK Mapping</li>
-      <li>SOAR & Security Automation</li>
-      <li>Threat Intelligence & IOC Analysis</li>
-      <li>Incident Escalation & SOC Playbooks</li>
-    </ul>
-  </div>
-
-  <!-- COLUMN 2 -->
-<div>
-  <h3>Red Team / Offensive Security</h3>
-  <ul>
-    <li>Web & Network Penetration Testing</li>
-    <li>Vulnerability Assessment</li>
-    <li>Active Directory Enumeration & Attacks</li>
-    <li>
-      <strong>Tools:</strong> Nmap, Nessus, OpenVAS, Burp Suite, Metasploit, 
-      BloodHound, Impacket, NetExec (CrackMapExec)
-    </li>
-  </ul>
-</div>
-
-
-</div>
-
-<style>
-.skills-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 134px;
-  margin-top: 24px;
-}
-
-.skills-grid h3 {
-  margin-bottom: 12px;
-}
-
-.skills-grid ul {
-  padding-left: 20px;
-}
-
-.skills-grid li {
-  margin-bottom: 6px;
-}
-</style>
+### Red Team / Offensive Security
+- Web & Network Penetration Testing
+- Vulnerability Assessment
+- Active Directory Enumeration & Attacks
+- **Tools:** Nmap, Nessus, OpenVAS, Burp Suite, Metasploit, BloodHound, Impacket, NetExec (CrackMapExec)

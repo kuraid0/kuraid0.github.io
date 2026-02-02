@@ -3,6 +3,8 @@ title: SOC Automation Project – Detection & Response Home Lab with SIEM & SOAR
 categories: [Projects]
 tags: [soc, wazuh, soar, automation, incident-response, blue-team]
 excerpt: Automated SOC detection and response using SIEM & SOAR in a home lab environment.
+image:
+  path: /assets/img/projects/soc1.png
 ---
 
 This project demonstrates a **SOC Automation Home Lab** focused on building detection and response capabilities using SIEM and SOAR concepts in a controlled lab environment.

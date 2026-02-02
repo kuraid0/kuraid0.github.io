@@ -3,6 +3,8 @@ title: Boss of the SOC V1 (2015) – Website Defacement Investigation
 categories: [Projects]
 tags: [soc, incident-response, splunk, log-analysis, blue-team]
 excerpt: SOC investigation of a website defacement incident using SIEM log analysis.
+image:
+  path: /assets/img/projects/boss-of-the-soc-splunk.png
 ---
 
 This project demonstrates an investigation of a **website defacement incident** from the *Boss of the SOC V1 (2015)* challenge, simulating real-world SOC analyst workflows using SIEM-based log analysis.

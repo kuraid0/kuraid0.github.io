@@ -101,7 +101,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/gonsuiterasebg.png
+avatar: /assets/img/nagi.png
 favicon: /assets/img/favicons/favicon.ico
 
 

@@ -1,6 +1,6 @@
 ---
 title: "HackTheBox Sherlock: RogueOne"
-date: 2026-02-15
+date: 2026-02-16
 categories: [HackTheBox Sherlocks Writeup, CDSA Track]
 tags: [dfir, htb-sherlock, memory-analysis, volatility3]
 image:

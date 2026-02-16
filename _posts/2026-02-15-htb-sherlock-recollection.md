@@ -2,7 +2,7 @@
 title: "HackTheBox Sherlock: Recollection"
 date: 2026-02-15
 categories: [HackTheBox Sherlocks Writeup, CDSA Track]
-tags: [dfir, htb-sherlock, memory-analysis]
+tags: [dfir, htb-sherlock, memory-analysis, volatility2]
 image:
   path: /assets/img/htb-sherlocks/recollection/recollection.png
 ---
@@ -52,7 +52,7 @@ For this challenge, I used **Volatility 2**, as the memory image requires profil
 
 I used the `imageinfo` plugin to identify the suggested profile:
 ```bash
-vol.py -f recollection.bin imageinfo
+vol2 -f recollection.bin imageinfo
 ```
 ![](/assets/img/htb-sherlocks/recollection/machine-os.png)
 
@@ -83,7 +83,7 @@ To identify the command copied by the attacker, I used the `clipboard` plugin in
 
 Since the correct profile was previously identified using the `imageinfo` plugin as `Win7SP1x64`, I specified the same profile during analysis:
 ```bash
-vol.py -f recollection.bin --profile=Win7SP1x64 clipboard
+vol2 -f recollection.bin --profile=Win7SP1x64 clipboard
 ```
 
 From the output, the following suspicious PowerShell snippet was found in the clipboard data:
@@ -91,7 +91,7 @@ From the output, the following suspicious PowerShell snippet was found in the cl
 
 To further validate this activity, I used the `cmdscan` plugin to review command history from memory:
 ```bash
-vol.py -f recollection.bin --profile=Win7SP1x64 cmdscan
+vol2 -f recollection.bin --profile=Win7SP1x64 cmdscan
 ```
 ![](/assets/img/htb-sherlocks/recollection/cmdscan.png)
 The results show that the attacker accessed cmd.exe and executed a PowerShell command containing the same obfuscated snippet, confirming that the clipboard content was pasted and executed.
@@ -344,7 +344,7 @@ The relevant file was found at offset `0x000000011e0d16f0`, which corresponds to
 
 I then dumped the file using:
 ```bash
-vol2 -f recollection.bin --profile=Win7SP1x64 dumpfiles --dump-dir=. -Q 0x11e0d16f0
+vol2 -f recollection.bin --profile=Win7SP1x64 dumpfiles --dump-dir=. -Q 0x000000011e0d16f0
 ```
 ![](/assets/img/htb-sherlocks/recollection/dump-file.png)
 

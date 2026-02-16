@@ -263,10 +263,11 @@ Additionally, **ProcessGuid** correlation can be used to associate the terminati
 
 ---
 
-## Key Takeaways
+## Conclusion
 
-- Sysmon provides high-fidelity endpoint telemetry critical for malware investigations.
-- Event ID 1 is essential for identifying suspicious process execution.
-- Event IDs 2 and 11 reveal defense evasion and payload staging techniques.
-- DNS and network events help uncover infrastructure and connectivity checks.
-- Correlating timestamps across events enables accurate attack timeline reconstruction.
+Through analysis of the Sysmon logs, we were able to reconstruct the attack chain and identify the malicious process responsible for the infection.
+
+By leveraging key Sysmon Event IDs, including process creation, file creation, DNS queries, network connections, and process termination, we correlated artifacts to uncover malware execution, defense evasion techniques such as time stomping, payload staging, and external communications.
+
+This investigation demonstrates the value of Sysmon telemetry in detecting malicious activity and reconstructing attacker behavior during the initial access phase of an intrusion.
+
